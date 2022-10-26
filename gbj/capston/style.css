@@ -1,0 +1,168 @@
+body,
+html {
+    height: 100%;
+    margin: 0%;
+    font-family: Noto Sans KR;
+}
+
+#wrap {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+div {
+    margin: 0%;
+}
+ul {
+    -webkit-padding-start: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    width: 100%;
+}
+
+#top {
+    margin: 0;
+    height: 40px;
+    background-color: #095385;
+}
+.container {
+    background-color: #f1f1f1;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.ticket {
+    height: 500px;
+}
+
+.ticket > img {
+    max-width: 500px;
+    height: 50%;
+    margin-top: 8%;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(89, 89, 89));
+}
+
+.container > div {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 45px;
+    bottom: 0px;
+    position: absolute;
+    background-color: rgb(63, 63, 63);
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.header_menu {
+    display: flex;
+    list-style: none;
+    padding-right: 10%;
+}
+
+.header_menu li {
+    padding: 8px 12px;
+}
+
+.header_menu li:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.header_icons {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.header_icons li:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.header_icons li {
+    padding: 8px 12px;
+}
+
+.header_Btn {
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    display: none;
+}
+
+.alarm {
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.alarm > li {
+    padding: 10px;
+}
+
+.alarm > li > a {
+    color: #095385;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.alarm li :hover {
+    background-color: #b0b0b0;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+    .header_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .header_menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header_icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header_Btn {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .header_menu.active,
+    .header_icons.active {
+        display: flex;
+    }
+}
