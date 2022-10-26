@@ -14,13 +14,18 @@
     width: 100%;
 }
 
+#container {
+    width: 100%;
+}
+
 #wrap {
     min-height: 100%;
     position: relative;
 }
 
 .foodtable {
-    margin: 0 auto;
+    margin-top: 15%;
+    margin-left: 50%;
 }
 
 table {
