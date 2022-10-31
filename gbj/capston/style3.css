@@ -190,3 +190,14 @@ td {
     margin-bottom: 20px;
     font-size: 30px;
 }
+
+.ticket {
+    display: flex;
+    justify-content: center;
+}
+
+.ticket > img {
+    width: 1080px;
+    height: auto;
+    margin-top: 10px;
+}

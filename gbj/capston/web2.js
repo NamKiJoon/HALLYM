@@ -22,32 +22,26 @@ window.onload = function () {
     const post = [
         {
             id: 1,
-            NAME: "착한백반",
-            menu: "즉석라면",
-            price: 3000,
+            NAME: "휘당",
+            menu: "안동찜닭,당면<br>잡곡밥<br>알큰콩나물국",
+            price: "*",
         },
         {
             id: 2,
-            NAME: "진짜배기탕",
-            menu: "부대찌개,라면사리<br>잡곡밥<br>야채계란찜",
-            price: 4000,
+            NAME: "Chef&U",
+            menu: "잔치국수<br>제육김치덮밥<br>크로와상-딸기잼",
+            price: "*",
         },
         {
             id: 3,
-            NAME: "크레이지팬",
-            menu: "핫스파이시치밥<br>미역국<br>포테이토샐러드",
-            price: 4500,
+            NAME: "Health&",
+            menu: "양상추 샐러드<br>깍두기<br>둥글레차",
+            price: "*",
         },
         {
             id: 4,
-            NAME: "테이크아웃",
-            menu: "샐러드<br>온더고도시락<br>닭가슴살,음료",
-            price: 4500,
-        },
-        {
-            id: 5,
-            NAME: "셀프바",
-            menu: "양상추샐러드<br>배추김치",
+            NAME: "IN THE BOX",
+            menu: "건강식 샐러드",
             price: "*",
         },
     ];
